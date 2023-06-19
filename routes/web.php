@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [App\Http\Controllers\FrontEndController::class, 'index']);
+Route::get('/about-us', [App\Http\Controllers\FrontEndController::class, 'about_us']);
+Route::get('/make-an-application', [App\Http\Controllers\FrontEndController::class, 'make_an_application']);
+Route::get('/gallery', [App\Http\Controllers\FrontEndController::class, 'gallery']);
